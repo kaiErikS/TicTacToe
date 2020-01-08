@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android_Eksamen_ticTacToe</string>
+    <string name="app_title">TIC TAC TOE</string>
+    <string name="enter_name">Please enter player name</string>
+    <string name="play_ai">Play VS AI</string>
+    <string name="play_two">Two player</string>
+    <string name="enter_player_one">Player One</string>
+    <string name="enter_player_two">Player Two</string>
+    <string name="play">PLAY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="highscore_btn">Hall of fame</string>
+    <string name="high_score">HIGHSCORE</string>
+    <string name="Star_icon">Star icon</string>
+    <string name="vs_textView">VS</string>
+</resources>

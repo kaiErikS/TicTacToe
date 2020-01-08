@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <Chronometer android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/timerView" android:layout_marginBottom="8dp"
+                 app:layout_constraintBottom_toTopOf="@+id/gameEnd" app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+                 app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
+                 android:textSize="20sp"/>
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center"
+            android:id="@+id/tableLayout">
+
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center">
+
+            <Button
+                    android:id="@+id/btn1"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn2"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn3"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn4"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center">
+            <Button
+                    android:id="@+id/btn5"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn6"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn7"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn8"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center">
+            <Button
+                    android:id="@+id/btn9"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn10"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn11"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn12"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center">
+            <Button
+                    android:id="@+id/btn13"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn14"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn15"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/btn16"
+                    android:layout_height="40pt"
+                    android:layout_width="40pt"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:text=""
+                    android:onClick="onClick"
+                    style="?android:attr/buttonBarButtonStyle"/>
+
+        </TableRow>
+    </TableLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matchUp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
+            android:textAlignment="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/winnerAnnouncement"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/matchUp"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout" android:textStyle="bold"
+            android:textAlignment="center" android:textSize="30sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/gameEnd" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/winnerAnnouncement"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
+            android:textAlignment="textStart" android:textSize="25sp"/>
+    <TextView
+            android:text="Time elapsed: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TE" app:layout_constraintEnd_toStartOf="@+id/timerView"
+            android:layout_marginEnd="8dp" app:layout_constraintBottom_toTopOf="@+id/gameEnd"
+            android:layout_marginBottom="8dp" android:textSize="20sp" android:textStyle="bold"
+    />
+</android.support.constraint.ConstraintLayout>
