@@ -4,12 +4,18 @@
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent">
-    <Chronometer android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:id="@+id/timerView" android:layout_marginBottom="8dp"
-                 app:layout_constraintBottom_toTopOf="@+id/gameEnd" app:layout_constraintEnd_toEndOf="@+id/tableLayout"
-                 app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
-                 android:textSize="20sp"/>
+
+    <Chronometer
+            android:id="@+id/timerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/secCol"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/gameEnd"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" />
     <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
@@ -184,35 +190,55 @@
 
         </TableRow>
     </TableLayout>
+
     <TextView
+            android:id="@+id/matchUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/matchUp" android:layout_marginBottom="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/secCol"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/tableLayout"
             app:layout_constraintEnd_toEndOf="@+id/tableLayout"
-            app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
-            android:textAlignment="center"/>
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" />
+
     <TextView
+            android:id="@+id/winnerAnnouncement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/winnerAnnouncement"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/matchUp"
-            app:layout_constraintStart_toStartOf="@+id/tableLayout"
-            app:layout_constraintEnd_toEndOf="@+id/tableLayout" android:textStyle="bold"
-            android:textAlignment="center" android:textSize="30sp"/>
+            android:layout_marginBottom="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/secCol"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/matchUp"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" />
+
     <TextView
+            android:id="@+id/gameEnd"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/gameEnd" android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/secCol"
+            android:textSize="25sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/winnerAnnouncement"
             app:layout_constraintEnd_toEndOf="@+id/tableLayout"
-            app:layout_constraintStart_toStartOf="@+id/tableLayout" android:textStyle="bold"
-            android:textAlignment="textStart" android:textSize="25sp"/>
+            app:layout_constraintStart_toStartOf="@+id/tableLayout" />
+
     <TextView
-            android:text="Time elapsed: "
+            android:id="@+id/TE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/TE" app:layout_constraintEnd_toStartOf="@+id/timerView"
-            android:layout_marginEnd="8dp" app:layout_constraintBottom_toTopOf="@+id/gameEnd"
-            android:layout_marginBottom="8dp" android:textSize="20sp" android:textStyle="bold"
-    />
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Time elapsed: "
+            android:textColor="@color/secCol"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/gameEnd"
+            app:layout_constraintEnd_toStartOf="@+id/timerView" />
 </android.support.constraint.ConstraintLayout>

@@ -6,4 +6,6 @@
     <color name="plainDark">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="btnColor">#F1F1F1</color>
+    <color name="secCol">#979595</color>
+    <color name="darkCol">#000000</color>
 </resources>
