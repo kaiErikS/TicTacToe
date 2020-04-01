@@ -2,8 +2,8 @@
 
 Native Tic tac toe application written in Kotlin for the android OS.
 
-###Home screen
-![](screenshots/homeScreen.png)
+### Home screen
+<img src="screenshots/homeScreen.png" width=400 height=600>
 
-###Game screen
-![](screenshots/gameScreen.png)
+### Game screen
+<img src="screenshots/gameScreen.png" width=400 height=600>
